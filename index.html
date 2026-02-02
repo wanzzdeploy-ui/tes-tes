@@ -1,0 +1,819 @@
+<!doctype html>
+
+<html lang="en" class="layout-menu-fixed layout-compact" data-assets-path="../assets/" data-template="vertical-menu-template-free">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <title>Lín Wēi Yǎ（薇雅）• Digital Tech</title>
+
+    <meta name="description" content>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/css2.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/iconify-icons.css">
+
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/demo.css">
+
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+
+    <link rel="stylesheet" href="css/apex-charts.css">
+
+    <script src="js/helpers.js"></script>
+
+    <script src="js/config.js"></script>
+  </head>
+
+  <body>
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-text demo menu-text fw-bold ms-2">（薇雅）</span>
+            </a>
+
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+              <i class="bx bx-chevron-left d-block d-xl-none align-middle"></i>
+            </a>
+          </div>
+
+          <div class="menu-divider mt-0"></div>
+
+          <div class="menu-inner-shadow"></div>
+
+          <ul class="menu-inner py-1">
+            <li class="menu-item active open">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-home-smile"></i>
+                <div class="text-truncate" data-i18n="Dashboards">Dashboard</div>
+                <span class="badge rounded-pill bg-danger ms-auto">5</span>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item active">
+                  <a href="/dash" class="menu-link">
+                    <div class="text-truncate" data-i18n="Analytics">Home</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" target="_blank" class="menu-link">
+                    <div class="text-truncate" data-i18n="None">None Page</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Front Pages -->
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-store"></i>
+                <div class="text-truncate" data-i18n="Front Pages">Front Pages</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="https://" class="menu-link" target="_blank">
+                    <div class="text-truncate" data-i18n="Help Center">Help Center</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Apps & Pages -->
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Apps &amp; Pages</span>
+            </li>
+            <!-- Pages -->
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div class="text-truncate" data-i18n="Account Settings">Account Settings</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/account/profile" class="menu-link">
+                    <div class="text-truncate" data-i18n="Account">Account</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/account/notifications" class="menu-link">
+                    <div class="text-truncate" data-i18n="Notifications">Notifications</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/account/connections" class="menu-link">
+                    <div class="text-truncate" data-i18n="Connections">Connections</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                <div class="text-truncate" data-i18n="Authentications">Authentications</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="/login" class="menu-link" target="_blank">
+                    <div class="text-truncate" data-i18n="Basic">Login</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="auth-register" class="menu-link" target="_blank">
+                    <div class="text-truncate" data-i18n="Basic">Register</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="auth-forgot-password" class="menu-link" target="_blank">
+                    <div class="text-truncate" data-i18n="Basic">Forgot Password</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <div class="text-truncate" data-i18n="Misc">Misc</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="pages" class="menu-link">
+                    <div class="text-truncate" data-i18n="Error">Rename Script</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="/script/download" class="menu-link">
+                    <div class="text-truncate" data-i18n="Under Maintenance">Download Script</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <!-- Components -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Reseller Menu</span></li>
+
+
+            <!-- Forms & Tables -->
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Developer Menu</span></li>
+
+
+            <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
+            <li class="menu-item">
+              <a href="https://wa.me/573181146346" target="_blank" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-support"></i>
+                <div class="text-truncate" data-i18n="Support">Support</div>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="https:///" target="_blank" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-file"></i>
+                <div class="text-truncate" data-i18n="Documentation">Documentation</div>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <!-- / Menu -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+
+          <nav class="layout-navbar container-xxl navbar-detached navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
+                <i class="icon-base bx bx-menu icon-md"></i>
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center justify-content-end" id="navbar-collapse">
+              <!-- Search -->
+              <div class="navbar-nav align-items-center me-auto">
+                <div class="nav-item d-flex align-items-center">
+                  <span class="w-px-22 h-px-22"><i class="icon-base bx bx-search icon-md"></i></span>
+                  <input type="text" class="form-control border-0 shadow-none ps-1 ps-sm-2 d-md-block d-none" placeholder="Search..." aria-label="Search...">
+                </div>
+              </div>
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-md-auto">
+                <!-- Place this tag where you want the button to render. -->
+<!-- Notification Button -->
+<li class="nav-item dropdown lh-1 me-3">
+  <a class="nav-link p-0" href="#" data-bs-toggle="dropdown">
+    <i class="icon-base bx bx-bell icon-md"></i>
+    <span id="notifDot" class="badge rounded-pill bg-danger p-1" style="position:absolute; margin-left:-6px; margin-top:-6px; display:none;"></span>
+  </a>
+
+<ul class="dropdown-menu dropdown-menu-end p-0" style="width: 320px;">
+
+  <li class="p-3 border-bottom">
+    <h6 class="mb-0">Notifikasi</h6>
+  </li>
+
+  <li class="p-0" style="max-height: 350px; overflow-y: auto;">
+    <ul id="notifContainer" class="list-unstyled mb-0">
+    </ul>
+  </li>
+
+  <li class="text-center p-2 border-top">
+    <a href="#" class="text-primary">Lihat Semua</a>
+  </li>
+
+</ul>
+</li>
+
+<!-- Dark mode toggle -->
+<li class="nav-item lh-1 me-4">
+  <a class="nav-link p-0" href="javascript:void(0)" onclick="toggleTheme()">
+    <i id="themeIcon" class="icon-base bx bx-moon icon-md"></i>
+  </a>
+</li>
+
+                <!-- User -->
+<li class="nav-item navbar-dropdown dropdown-user dropdown">
+  <a class="nav-link dropdown-toggle hide-arrow p-0" href="#" data-bs-toggle="dropdown">
+    <div class="avatar avatar-online">
+      <img id="navAvatar" src="img/1.png" class="w-px-40 h-auto rounded-circle">
+    </div>
+  </a>
+
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li>
+      <a class="dropdown-item" href="#">
+        <div class="d-flex">
+          <div class="flex-shrink-0 me-3">
+            <div class="avatar avatar-online">
+              <img id="dropdownAvatar" src="img/1.png" class="w-px-40 h-auto rounded-circle">
+            </div>
+          </div>
+          <div class="flex-grow-1">
+            <h6 class="mb-0" id="dropdownName">Loading...</h6>
+            <small class="text-body-secondary" id="dropdownRole">...</small>
+          </div>
+        </div>
+      </a>
+    </li>
+
+    <li><div class="dropdown-divider my-1"></div></li>
+
+    <li>
+      <a class="dropdown-item" href="/account/profile">
+        <i class="bx bx-user me-3"></i>
+        <span>My Profile</span>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="/account/connections">
+        <i class="bx bx-cog me-3"></i>
+        <span>Settings</span>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#">
+        <i class="bx bx-credit-card me-3"></i>
+        <span>Billing Plan</span>
+        <span class="badge rounded-pill bg-danger ms-auto">4</span>
+      </a>
+    </li>
+
+    <li><div class="dropdown-divider my-1"></div></li>
+
+    <li>
+      <a class="dropdown-item" href="/login" onclick="logout()">
+        <i class="bx bx-power-off me-3"></i>
+        <span>Log Out</span>
+      </a>
+    </li>
+
+  </ul>
+</li>
+                <!--/ User -->
+              </ul>
+            </div>
+          </nav>
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <div class="row">
+                <div class="col-xxl-8 mb-6 order-0">
+                  <div class="card">
+                    <div class="d-flex align-items-start row">
+                      <div class="col-sm-7">
+                        <div class="card-body">
+                           <h5 class="card-title text-primary mb-3" id="welcomeText">Welcome Users!</h5>
+                          <p class="mb-6">
+                            Website untuk menampilkan informasi<br>semua informasi seperti server, data, akun member, dll sudah tersedia...
+                          </p>
+
+                          <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Page</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-5 text-center text-sm-left">
+                        <div class="card-body pb-0 px-0 px-md-6">
+                          <img src="img/man-with-laptop.png" height="175" alt="View Page">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-4 col-lg-12 col-md-4 order-1">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-6 mb-6">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                            <div class="avatar flex-shrink-0">
+                              <img src="img/chart-success.png" alt="chart success" class="rounded">
+                            </div>
+                            <div class="dropdown">
+                              <button class="btn p-0" type="button" id="cardOpt3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                              </button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt3">
+                                <a class="dropdown-item" href="javascript:void(0);">View More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="mb-1">Database</p>
+                          <h4 class="card-title mb-3" id="dbCount">0</h4>
+                          <small class="text-success fw-medium">
+                            <i class="icon-base bx bx-up-arrow-alt"></i>
+                             <span id="growthValue">Loading...</span>
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-6 mb-6">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                            <div class="avatar flex-shrink-0">
+                              <img src="img/wallet-info.png" alt="wallet info" class="rounded">
+                            </div>
+                            <div class="dropdown">
+                              <button class="btn p-0" type="button" id="cardOpt6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                              </button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt6">
+                                <a class="dropdown-item" href="javascript:void(0);">View More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="mb-1">Reseller</p>
+                          <h4 class="card-title mb-3" id="ressCount">0</h4>
+                          <small class="text-success fw-medium"><i class="icon-base bx bx-up-arrow-alt"></i>
+                            <span id="growthRessValue">Loading...</span>
+                         </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Total Revenue -->
+                <div class="col-12 col-xxl-8 order-2 order-md-3 order-xxl-2 mb-6 total-revenue">
+                  <div class="card">
+                    <div class="row row-bordered g-0">
+                      <div class="col-lg-8">
+                        <div class="card-header d-flex align-items-center justify-content-between">
+                          <div class="card-title mb-0">
+                            <h5 class="m-0 me-2">Server Performance</h5>
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn p-0" type="button" id="totalRevenue" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="icon-base bx bx-dots-vertical-rounded icon-lg text-body-secondary"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="totalRevenue">
+                              <a class="dropdown-item" href="javascript:void(0);">Select All</a>
+                              <a class="dropdown-item" href="javascript:void(0);">Refresh</a>
+                              <a class="dropdown-item" href="javascript:void(0);">Share</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="totalRevenueChart" class="px-3"></div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="card-body px-xl-9 py-12 d-flex align-items-center flex-column">
+
+                          <div id="growthChart"></div>
+                          <div class="text-center fw-medium my-6" id="cpuAverageText">Loading...</div>
+<div class="d-flex justify-content-between w-100 mt-2">
+
+  <!-- RAM -->
+  <div class="d-flex align-items-center">
+    <div class="avatar me-1">
+      <span class="avatar-initial rounded-2 bg-label-primary p-1">
+        <i class="icon-base bx bx-chip text-primary"></i>
+      </span>
+    </div>
+    <div class="lh-1">
+      <small class="text-muted">Server</small>
+      <h6 class="mb-0" id="ramUsage">0MB</h6>
+    </div>
+  </div>
+
+  <!-- UPTIME -->
+  <div class="d-flex align-items-center">
+    <div class="avatar me-1">
+      <span class="avatar-initial rounded-2 bg-label-info p-1">
+        <i class="icon-base bx bx-time-five text-info"></i>
+      </span>
+    </div>
+    <div class="lh-1">
+      <small class="text-muted">Uptime</small>
+      <h6 class="mb-0" id="uptimeText">0h 0m 0s</h6>
+    </div>
+  </div>
+
+</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Total Revenue -->
+                <div class="col-12 col-md-8 col-lg-12 col-xxl-4 order-3 order-md-2 profile-report">
+                  <div class="row">
+<div class="col-6 mb-6 payments">
+  <div class="card h-100">
+    <div class="card-body">
+      <div class="card-title d-flex align-items-start justify-content-between mb-4">
+        <div class="avatar flex-shrink-0">
+          <img src="img/chart-success.png" alt="library" class="rounded">
+        </div>
+        <div class="dropdown">
+          <button class="btn p-0" type="button" id="cardOpt4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt4">
+            <a class="dropdown-item" href="javascript:void(0);">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- TITLE -->
+      <p class="mb-1">Library Server</p>
+
+      <!-- STATUS (dynamic) -->
+      <h4 id="lib-card-status" class="card-title mb-3 text-danger">Offline</h4>
+
+      <!-- UPTIME (dynamic) -->
+      <small id="lib-card-uptime" class="text-danger fw-medium">
+        <i id="lib-card-icon" class="icon-base bx bx-down-arrow-alt"></i>
+        0
+      </small>
+
+    </div>
+  </div>
+</div>
+                    <div class="col-6 mb-6 transactions">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between mb-4">
+                            <div class="avatar flex-shrink-0">
+                              <img src="img/cc-primary.png" alt="Credit Card" class="rounded">
+                            </div>
+                            <div class="dropdown">
+                              <button class="btn p-0" type="button" id="cardOpt1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-base bx bx-dots-vertical-rounded text-body-secondary"></i>
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="cardOpt1">
+                                <a class="dropdown-item" href="javascript:void(0);">View More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="mb-1">Transactions</p>
+                          <h4 class="card-title mb-3">$14,857</h4>
+                          <small class="text-success fw-medium"><i class="icon-base bx bx-up-arrow-alt"></i> +28.14%</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mb-6 profile-report">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between align-items-center flex-sm-row flex-column gap-10 flex-wrap">
+                            <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
+                              <div class="card-title mb-6">
+                                <h5 class="text-nowrap mb-1">Profile Report</h5>
+                                <span class="badge bg-label-warning">YEAR 2022</span>
+                              </div>
+                              <div class="mt-sm-auto">
+                                <span class="text-success text-nowrap fw-medium"><i class="icon-base bx bx-up-arrow-alt"></i> 68.2%</span>
+                                <h4 class="mb-0">$84,686k</h4>
+                              </div>
+                            </div>
+                            <div id="profileReportChart"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Order Statistics -->
+                <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-6">
+                  <div class="card h-100">
+                    <div class="card-header d-flex justify-content-between">
+                      <div class="card-title mb-0">
+                        <h5 class="mb-1 me-2">Order Statistics</h5>
+                        <p class="card-subtitle">42.82k Total Sales</p>
+                      </div>
+                      <div class="dropdown">
+                        <button class="btn text-body-secondary p-0" type="button" id="orederStatistics" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="icon-base bx bx-dots-vertical-rounded icon-lg"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="orederStatistics">
+                          <a class="dropdown-item" href="javascript:void(0);">Select All</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Refresh</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Share</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center mb-6">
+                        <div class="d-flex flex-column align-items-center gap-1">
+                          <h3 class="mb-1">8,258</h3>
+                          <small>Total Orders</small>
+                        </div>
+                        <div id="orderStatisticsChart"></div>
+                      </div>
+                      <ul class="p-0 m-0">
+                        <li class="d-flex align-items-center mb-5">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <span class="avatar-initial rounded bg-label-primary"><i class="icon-base bx bx-mobile-alt"></i></span>
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <h6 class="mb-0">Electronic</h6>
+                              <small>Mobile, Earbuds, TV</small>
+                            </div>
+                            <div class="user-progress">
+                              <h6 class="mb-0">82.5k</h6>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-5">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <span class="avatar-initial rounded bg-label-success"><i class="icon-base bx bx-closet"></i></span>
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <h6 class="mb-0">Fashion</h6>
+                              <small>T-shirt, Jeans, Shoes</small>
+                            </div>
+                            <div class="user-progress">
+                              <h6 class="mb-0">23.8k</h6>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-5">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <span class="avatar-initial rounded bg-label-info"><i class="icon-base bx bx-home-alt"></i></span>
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <h6 class="mb-0">Decor</h6>
+                              <small>Fine Art, Dining</small>
+                            </div>
+                            <div class="user-progress">
+                              <h6 class="mb-0">849k</h6>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <span class="avatar-initial rounded bg-label-secondary"><i class="icon-base bx bx-football"></i></span>
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <h6 class="mb-0">Sports</h6>
+                              <small>Football, Cricket Kit</small>
+                            </div>
+                            <div class="user-progress">
+                              <h6 class="mb-0">99</h6>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Order Statistics -->
+
+                <!-- Expense Overview -->
+                <div class="col-md-6 col-lg-4 order-1 mb-6">
+                  <div class="card h-100">
+                    <div class="card-header nav-align-top">
+                      <ul class="nav nav-pills flex-wrap row-gap-2" role="tablist">
+                        <li class="nav-item">
+                          <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab" data-bs-target="#navs-tabs-line-card-income" aria-controls="navs-tabs-line-card-income" aria-selected="true">
+                            Income
+                          </button>
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="nav-link" role="tab">Expenses</button>
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="nav-link" role="tab">Profit</button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <div class="tab-content p-0">
+                        <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
+                          <div class="d-flex mb-6">
+                            <div class="avatar flex-shrink-0 me-3">
+                              <img src="img/wallet.png" alt="User">
+                            </div>
+                            <div>
+                              <p class="mb-0">Total Balance</p>
+                              <div class="d-flex align-items-center">
+                                <h6 class="mb-0 me-1">$459.10</h6>
+                                <small class="text-success fw-medium">
+                                  <i class="icon-base bx bx-chevron-up icon-lg"></i>
+                                  42.9%
+                                </small>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="incomeChart"></div>
+                          <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
+                            <div class="flex-shrink-0">
+                              <div id="expensesOfWeek"></div>
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Income this week</h6>
+                              <small>$39k less than last week</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Expense Overview -->
+
+                <!-- Transactions -->
+                <div class="col-md-6 col-lg-4 order-2 mb-6">
+                  <div class="card h-100">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="card-title m-0 me-2">Transactions</h5>
+                      <div class="dropdown">
+                        <button class="btn text-body-secondary p-0" type="button" id="transactionID" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="icon-base bx bx-dots-vertical-rounded icon-lg"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="transactionID">
+                          <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body pt-4">
+                      <ul class="p-0 m-0">
+                        <li class="d-flex align-items-center mb-6">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/paypal.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Paypal</small>
+                              <h6 class="fw-normal mb-0">Send money</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">+82.6</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-6">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/wallet.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Wallet</small>
+                              <h6 class="fw-normal mb-0">Mac'D</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">+270.69</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-6">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/chart.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Transfer</small>
+                              <h6 class="fw-normal mb-0">Refund</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">+637.91</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-6">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/cc-primary.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Credit Card</small>
+                              <h6 class="fw-normal mb-0">Ordered Food</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">-838.71</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center mb-6">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/wallet.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Wallet</small>
+                              <h6 class="fw-normal mb-0">Starbucks</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">+203.33</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="avatar flex-shrink-0 me-3">
+                            <img src="img/cc-warning.png" alt="User" class="rounded">
+                          </div>
+                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                            <div class="me-2">
+                              <small class="d-block">Mastercard</small>
+                              <h6 class="fw-normal mb-0">Ordered Food</h6>
+                            </div>
+                            <div class="user-progress d-flex align-items-center gap-2">
+                              <h6 class="fw-normal mb-0">-92.45</h6>
+                              <span class="text-body-secondary">USD</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Transactions -->
+              </div>
+            </div>
+            <!-- / Content -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+    <!-- Core JS -->
+
+    <script src="js/jquery.js"></script>
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/perfect-scrollbar.js"></script>
+
+    <script src="js/menu.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="js/apexcharts.js"></script>
+    <script src="apexcharts"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Main JS -->
+
+    <script src="js/main.js"></script>
+    
+
+    <!-- Place this tag before closing body tag for github widget button. -->
+    <script async defer src="js/buttons.js"></script>
+  </body>
+</html>
